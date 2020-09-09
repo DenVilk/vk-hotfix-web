@@ -189,7 +189,7 @@ const App = () => {
 					/>
 				</Route>
 				<Route 
-					path="/place/:area/:place/:faster/:self"
+					path="/place/:area/:place"
 					render={routeProps => {
 						return (
 							<Place
