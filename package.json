@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://vk.com/vova_velikovich",
+  "homepage": "https://denvilk.github.io/vk-hotfix-web/",
   "scripts": {
     "start": "cross-env PORT=10888 react-scripts start",
     "build": "react-scripts build",
     "surge-deploy": "npm run build && surge ./build --domain kozodoi-club-hack.surge.sh",
     "predeploy": "npm run build",
-    "deploy": "gh-page -d build"
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
