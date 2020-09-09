@@ -2,12 +2,11 @@
   "name": "kozodoi-club-hack",
   "version": "1.0.0",
   "description": "",
+  // "homepage": "https://denvilk.github.io/vk-hotfix-web/",
   "main": "index.js",
-  "homepage": "https://denvilk.github.io/vk-hotfix-web/",
   "scripts": {
     "start": "cross-env PORT=10888 react-scripts start",
     "build": "react-scripts build",
-    "surge-deploy": "npm run build && surge ./build --domain kozodoi-club-hack.surge.sh",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
