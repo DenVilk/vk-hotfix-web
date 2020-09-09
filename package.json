@@ -8,8 +8,8 @@
     "start": "cross-env PORT=10888 react-scripts start",
     "build": "react-scripts build",
     "surge-deploy": "npm run build && surge ./build --domain kozodoi-club-hack.surge.sh",
-    "predeploy" :"npm run build",
-    "deploy" : "gh-page -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-page -d build"
   },
   "keywords": [],
   "author": "",
@@ -28,6 +28,7 @@
     "babel-eslint": "^10.0.3",
     "chalk": "^2.4.2",
     "core-js": "^3.1.4",
+    "gh-pages": "^3.1.0",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
